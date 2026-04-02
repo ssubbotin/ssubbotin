@@ -29,6 +29,8 @@
 
 ## Open source
 
+- [**flash-moe**](https://github.com/ssubbotin/flash-moe) — CUDA port of a pure C/Metal inference engine that runs Qwen3.5-397B-A17B (397B parameter MoE model) on consumer hardware. Hand-written CUDA kernels, VRAM expert caching, GDS support. [Article: Running 397B on a single RTX 4090](https://gist.github.com/ssubbotin/e778f97ebf1f76b8fd423c0bc3961a1a).
+- [**libfprint**](https://gitlab.freedesktop.org/libfprint/libfprint/-/merge_requests/570) — new driver for FPC Disum USB fingerprint sensors (FPC1022). TLS-PSK encrypted USB protocol, SIFT-based matching for small-area sensors.
 - [**LLVM/clang-format**](https://github.com/llvm/llvm-project/pull/181051) — merged PR: per-operator granularity for BreakBinaryOperations
 - [**cudascope**](https://github.com/ssubbotin/cudascope) — self-hosted NVIDIA GPU monitoring (Go)
 - [**redis-ui**](https://github.com/ssubbotin/redis-ui) — modern web UI for Redis
