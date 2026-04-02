@@ -70,6 +70,8 @@ Technical Lead with 22+ years of software engineering experience across safety-c
 
 ## Open Source
 
+- **flash-moe** -- CUDA port of an inference engine running Qwen3.5-397B on consumer hardware. Hand-written CUDA kernels, VRAM expert caching, GDS support.
+- **libfprint** -- New driver for FPC Disum USB fingerprint sensors (FPC1022). TLS-PSK encrypted USB protocol, SIFT-based matching.
 - **LLVM/clang-format** -- Merged upstream PR: per-operator granularity for BreakBinaryOperations (2026)
 - **BORODA** -- Requirements management system for DO-178C/KT-178C certification (TypeScript)
 - **cudascope** -- Self-hosted NVIDIA GPU monitoring with real-time dashboards (Go)
