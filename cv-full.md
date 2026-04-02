@@ -61,7 +61,7 @@ Lead a team of 8 (3 backend developers, 1 frontend developer, 1 UX/UI designer, 
 ---
 
 ### Software Developer -- Yandex
-**May 2023 -- Feb 2026** (2 yrs 10 mos) | Belgrade, Serbia (Hybrid)
+**May 2023 -- Present** | Belgrade, Serbia (Hybrid)
 *L3/L7 load balancing control plane orchestrating traffic for millions of requests per second to internal and external Yandex services*
 
 **Contribution volume (Arcadia monorepo):**
@@ -193,6 +193,12 @@ Progressed from software engineer to lead over 14 years, contributing to 30+ avi
 ---
 
 ## Open Source Contributions
+
+**flash-moe (2026)**
+CUDA port of a pure C/Metal inference engine that runs Qwen3.5-397B-A17B (397B parameter MoE model) on consumer hardware. Hand-written CUDA kernels, VRAM expert caching, GDS support. [Article: Running 397B on a single RTX 4090](https://gist.github.com/ssubbotin/e778f97ebf1f76b8fd423c0bc3961a1a).
+
+**libfprint (2026)**
+New driver for FPC Disum USB fingerprint sensors (FPC1022). TLS-PSK encrypted USB protocol, SIFT-based matching for small-area sensors. [Merge request](https://gitlab.freedesktop.org/libfprint/libfprint/-/merge_requests/570).
 
 **LLVM / clang-format (2026)**
 Merged upstream PR: [Add per-operator granularity for BreakBinaryOperations](https://github.com/llvm/llvm-project/pull/181051)
