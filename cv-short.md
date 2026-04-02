@@ -35,7 +35,7 @@ Technical Lead with 22+ years of software engineering experience across safety-c
 - Drove 2,900+ commits and 605+ pull requests; implemented LLM-powered code review as the standard PR workflow and deployed multi-agent orchestration (5 parallel agents) for cross-repo C++ analysis
 - Manage hiring, performance reviews, sprint planning, and cross-functional coordination with hardware and analytics teams
 
-### Software Developer -- Yandex | May 2023 -- Feb 2026
+### Software Developer -- Yandex | May 2023 -- Present
 *L3/L7 Load Balancing Control Plane (millions of RPS) -- Belgrade, Serbia*
 - Delivered 366 merged PRs (122K+ lines added) and reviewed 869 PRs; implemented 165+ features across balancer configuration, routing, DNS, and certificate management
 - Designed and executed migration of 750+ L7 balancers to Deploy platform (270 production), adopted by Maps, E-commerce, and RideTech teams
