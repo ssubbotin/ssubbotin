@@ -1,6 +1,6 @@
 # Sergey Subbotin
 
-**Technical Lead**
+**AI-Augmented Engineering Lead**
 
 Belgrade, Serbia | ssubbotin@gmail.com | [linkedin.com/in/ssubbotin](https://linkedin.com/in/ssubbotin) | [github.com/ssubbotin](https://github.com/ssubbotin) | [medium.com/@sergeysubbotin](https://medium.com/@sergeysubbotin)
 
@@ -8,85 +8,104 @@ Belgrade, Serbia | ssubbotin@gmail.com | [linkedin.com/in/ssubbotin](https://lin
 
 ## Summary
 
-Technical Lead with 22+ years of software engineering experience across safety-critical avionics (DO-178C, FAA certification), large-scale distributed infrastructure, and aerospace radar systems. Led cross-functional teams of up to 10 engineers spanning development, QA, and DevOps. Proven ability to rescue stalled projects, build teams from scratch, and deliver complex systems on time. Combines deep hands-on expertise in Python, Go, and C++ with system architecture, CI/CD pipeline design, AI-augmented development workflows, and stakeholder management across multinational teams in Russia, Argentina, and Serbia.
+Senior software engineer (24+ years) pivoting into full-time **AI-augmented / "vibe coding" roles**. I bring deep engineering judgement — safety-critical avionics (DO-178C, FAA), large-scale infrastructure at Yandex (millions of RPS), aerospace radar systems — and pair it with a power-user command of Claude Code, MCP servers, and multi-agent orchestration. **265 Claude Code sessions, 176,848 messages, 54,759 tool calls, 209 commits, ~2,150 h** in 2026 alone (Jan–Apr).
+
+**What I can offer your team:**
+- Drop-in AI-augmented senior engineer — ship features, reviews, refactors, migrations at a pace teams rarely see.
+- Set up LLM-accelerated engineering processes for existing teams: PR-review pipelines, MCP integrations, multi-agent workflows, CLAUDE.md discipline, hooks, custom skills.
+- Translate 24 years of "how real engineering works" into guardrails that keep LLM output production-grade in regulated and non-regulated domains alike.
 
 ---
 
-## Skills
+## AI-Augmented Development (pivot focus)
 
-**Languages:** Python, Go, C/C++, TypeScript, SQL, Java, Protobuf
-**Databases:** MongoDB, Redis, PostgreSQL, MySQL, Elasticsearch
-**Infrastructure:** Docker, Docker Compose, Docker Swarm, Nginx, ZooKeeper, RabbitMQ, gRPC
-**Cloud & CI/CD:** AWS (EC2, S3), Yandex Cloud, GitHub Actions, Jenkins, GitLab CI
-**Monitoring & Observability:** Grafana, Prometheus, ELK Stack, OpenTelemetry
-**Frameworks:** React, Node.js, Svelte, Jinja2
-**AI Tooling:** MCP servers, LLM-driven code review pipelines, multi-agent orchestration, full-stack project bootstrapping (Claude Code, GitHub Copilot)
-**Practices:** Agile/Scrum (10 years, 3 as Scrum Master), Code Review, CI/CD, DO-178C Verification & Validation, Mentoring, Pair Programming
-**Tools:** LLVM/Clang, IBM DOORS, Matlab, Hex-Rays IDA Pro
+**Usage metrics (`/stats` + `/insights` on my own machine, 2026-01-02 → 04-21):**
+- **265 sessions, 176,848 messages, 54,759 tool calls, 63 active days, 18.33 B tokens**
+- **209 git commits across 109 analyzed sessions, ~2,153 hours** of Claude Code session time
+- **Projects touched: 15+** — safety-critical radar (AeroNAV RLMKX), Yandex infra, LLM/ML (flash-moe, bootstrap-llm, cudascope), tooling, personal
+- Primary model: **Claude Opus 4.6** (~73% of traffic); also Opus 4.5/4.7, Haiku 4.5, Sonnet 4.6
+
+**What I actually do with it:**
+- **PR-review pipelines** — most frequent workflow: fetch diff + prior comments, post structured inline reviews to Gitea via API, rebase + re-review, batch across 2–3 PRs at once.
+- **MCP server development** — built production MCP with 20+ tools at Yandex; forked & patched an MCP to fix auth; connected Claude Code to Yandex Wiki, Yandex Tracker, Gitea.
+- **Multi-agent orchestration** — parallel sub-agents for cross-repo refactors, C++ style analysis (5 agents at once), monorepo migrations (176 commits in a single session).
+- **RAG-enhanced review infrastructure** for Gitea (in progress, Phase 1 shipped).
+- **Process authorship** — `CLAUDE.md`, custom skills, PreToolUse/PostToolUse hooks, acceptance-test harnesses, runbooks from diagnostic sessions.
+- **Systematic root-cause debugging with LLM assistance** — VLC/fontconfig, powerline on Python 3.14, Qwen3-MoE degeneration, i386 purge, kernel cleanup.
+
+---
+
+## Technical Skills
+
+**Languages:** Python, Go, C/C++, TypeScript, SQL, Protobuf, Java
+**Infrastructure:** Docker, Nginx/AWACS, ZooKeeper, RabbitMQ, MongoDB, Redis, PostgreSQL, Elasticsearch
+**Cloud & CI/CD:** AWS (EC2, S3), Yandex Cloud, GitHub Actions, Gitea Actions, Jenkins, GitLab CI
+**Monitoring:** Grafana, Prometheus, ELK, OpenTelemetry, DataLens
+**LLM tooling:** Claude Code, Claude Agent SDK, Anthropic API, MCP protocol, prompt caching, multi-agent / sub-agent patterns, hooks & skills, RAG
+**Practices:** Agile/Scrum, Code Review, CI/CD, DO-178C V&V, Mentoring
+**Other tools:** LLVM/Clang, IBM DOORS, Hex-Rays IDA Pro, Matlab, React, gRPC, TVM
 
 ---
 
 ## Experience
 
-### Team Lead -- AeroNAV (Navigator LLC) | Jan 2025 -- Present
-*Airport Meteorological Radar System (RLMKX) -- Remote (Contract)*
-- Lead a team of 8 engineers (backend, frontend, UX/UI, analyst) building a radar control and monitoring system across 11 repositories
-- Architected system across C++, TypeScript, and Python services; established CI/CD pipelines, code review process, and DevOps infrastructure from scratch
-- Drove 2,900+ commits and 605+ pull requests; implemented LLM-powered code review as the standard PR workflow and deployed multi-agent orchestration (5 parallel agents) for cross-repo C++ analysis
-- Manage hiring, performance reviews, sprint planning, and cross-functional coordination with hardware and analytics teams
+### Team Lead — AeroNAV (Navigator LLC) | Jan 2025 – Present
+*Airport meteorological radar complex (RLMKX) — Remote*
+- Managing a team of 8 (3 backend, 1 frontend, 1 UX/UI, 1 analyst, 1 expert) building a radar control and monitoring system
+- 11 repositories, ~2,900 commits, 605+ pull requests; stack: C++, nesC, JS/TS, Python, Docker
+- Set up CI/CD, code review process, and DevOps infrastructure from scratch
+- **Built the team's LLM-accelerated engineering process end-to-end**: AI-driven PR review pipeline (70 Claude Code sessions / 18K messages on this one project), parallel multi-agent cross-repo refactors, RAG-enhanced review infrastructure, Gitea/Redmine MCPs
 
-### Software Developer -- Yandex | May 2023 -- Present
-*L3/L7 Load Balancing Control Plane (millions of RPS) -- Belgrade, Serbia*
-- Delivered 366 merged PRs (122K+ lines added) and reviewed 869 PRs; implemented 165+ features across balancer configuration, routing, DNS, and certificate management
-- Designed and executed migration of 750+ L7 balancers to Deploy platform (270 production), adopted by Maps, E-commerce, and RideTech teams
-- Migrated 7,000+ balancers to new agent versions across 5 datacenters; introduced TVM authentication across 358+ balancers
-- Accelerated API response time by 30% through caching optimization and SAGA pattern implementation
-- Eliminated 2,000+ flaky tests and reduced test suite execution from 30 to 20 minutes
-- Implemented OpenTelemetry tracing, gRPC support (100+ upstreams), and automated export of 1.5M+ entities to internal platform
-- Built production MCP server with 20+ tools for natural-language infrastructure management (balancers, namespaces, certificates)
-- Mentored 5+ bootcamp engineers; led daily standups and coordinated releases during lead's absence
+### Software Developer — Yandex | May 2023 – May 2026
+*AWACS — traffic balancing control plane for millions of RPS — Belgrade, Serbia*
+- Delivered 366 merged PRs (122K+ lines), reviewed 869 PRs across a cross-functional team
+- Migrated 750+ L7 balancers to Deploy (270 production); migrated 7,000+ to new Unified Agent
+- Accelerated API by 30% (caching, SAGA pattern); eliminated 2,000+ flaky tests (30→20 min suite)
+- Implemented TVM auth (358+ balancers), OpenTelemetry tracing, gRPC support (100+ upstreams)
+- **Early adopter of AI-augmented development at Yandex**: built a production MCP server with 20+ tools for natural-language AWACS management; published internal posts on AI-driven workflows
+- Mentored 5+ bootcamp interns; led daily standups during lead's absence
 
-### Team Lead -- IANS (International Aero Navigation Systems) JSC | Mar 2021 -- May 2023
-*Aeronautical R&D -- Moscow*
-- Rescued a stalled airport meteorological information system: grew team from 1 to 5, selected technology stack (React, Python, MongoDB), and delivered the project on schedule
-- Hired and built a 6-person team for an unmanned aircraft traffic management (UTM) web service; selected stack (TypeScript, React, Go, MongoDB, RabbitMQ) and designed system architecture
-- Introduced Agile/Scrum framework and performance review process; set up monitoring infrastructure (ELK, Grafana, Prometheus, Docker Swarm)
+### Team Lead — IANS (Aero Navigation Systems) JSC | Mar 2021 – May 2023
+*Meteorological systems & UTM for unmanned aircraft — Moscow*
+- Rescued a stalled airport meteorological system project; delivered on time with a team grown to 5
+- Hired and built a 6-person team for RUTM1 (unmanned traffic management) web service
+- Selected stacks (React/Python/Mongo; React/Go/Mongo/RabbitMQ), set up Agile, CI/CD, ELK/Docker
 
-### Senior Developer -- Avature | Jun 2017 -- Nov 2020
-*Human Capital Management SaaS Platform -- Buenos Aires, Argentina*
-- Optimized in-house test automation system processing 2 million tests daily across 2,000 AWS instances
-- Doubled test throughput per machine-hour while reducing cloud infrastructure costs by over 50%
-- Built responsive, auto-updating UI with extensible template system, reducing content delivery latency
+### Senior Developer — Avature | Jun 2017 – Nov 2020
+*Human Capital Management SaaS — Buenos Aires, Argentina*
+- Evolved in-house test system: 2M tests/day on 2,000 AWS instances
+- Doubled tests per machine-hour; cut cloud expenses by more than half
+- Built responsive auto-updating UI with extensible templates
 
-### Lead Software Engineer -- DC BARS Inc. | Feb 2003 -- Mar 2017
-*Avionics Software Verification & Validation -- Moscow*
-- Contributed to 30+ avionics projects resulting in 10+ aircraft certified by FAA under DO-178B/C standards
-- Led verification teams (2-15 engineers) for Honeywell Primus Epic and Rockwell Collins Pro Line Fusion display systems, including on-site work at both OEMs
-- Created a DO-178C Level A qualified toolset for structural coverage collection, worst-case execution time estimation, and control flow analysis
-- Architected Certivision, an Eclipse-based requirements and change management system, serving as Scrum Master for a team of 9 engineers
-- Designed and implemented test automation tooling that reduced manual test development time by 30%+ for targeted requirement categories
+### Lead Software Engineer — DC BARS Inc. | Feb 2003 – Mar 2017
+*Avionics V&V and certification — Moscow*
+- 30+ projects, 10+ aircraft certified by FAA (DO-178B/C)
+- 5 years on Honeywell Primus Epic displays; 2 years on Rockwell Collins Pro Line Fusion
+- Created a DO-178C qualified toolset: coverage collection, WCET estimation, control flow analysis
+- Built Certivision — Eclipse-based requirements/change management system (Scrum Master, 9 engineers)
+- Automated test generation saving 30%+ time for certain requirement categories
 
 ---
 
 ## Open Source
 
-- **flash-moe** -- CUDA port of an inference engine running Qwen3.5-397B on consumer hardware. Hand-written CUDA kernels, VRAM expert caching, GDS support.
-- **libfprint** -- New driver for FPC Disum USB fingerprint sensors (FPC1022). TLS-PSK encrypted USB protocol, SIFT-based matching.
-- **LLVM/clang-format** -- Merged upstream PR: per-operator granularity for BreakBinaryOperations (2026)
-- **BORODA** -- Requirements management system for DO-178C/KT-178C certification (TypeScript)
-- **cudascope** -- Self-hosted NVIDIA GPU monitoring with real-time dashboards (Go)
+- **LLVM/clang-format** — Merged PR: per-operator granularity for BreakBinaryOperations (2026)
+- **flash-moe (fork of danveloper/flash-moe)** — Ported the Metal-only 397B-param MoE inference engine to three additional GPU backends: **CUDA** (61 commits), **ROCm** (46 commits), **AMD APU / Strix Halo** (73 commits, incl. original dp4a + undocumented hipMalloc discoveries), and **MI300 optimization branch** (53 commits). 233 commits of low-level GPU work across four vendors.
+- **cudascope** — Self-hosted NVIDIA GPU monitoring with real-time dashboards (Go)
+- **redis-ui** — Modern web UI for Redis (JavaScript)
+- **zookeeper-ui** — Web UI for Apache ZooKeeper with protobuf support (JavaScript)
+- **claude-honk** — Notification sound for Claude Code (Shell)
+- **gost-r-54084-2010** — Atmospheric boundary layer models for aerospace (Python)
 
 ---
 
 ## Education
 
-**MS Mathematics & Computer Science** -- National Research Nuclear University MEPhI, 1998--2006
+**MS Mathematics & Computer Science** — National Research Nuclear University MEPhI, 1998–2006
 Thesis: Automatic test generation for avionics software using X-boolean logic on MATLAB models
-
-**Continuing Education:** Software Architecture (Yandex Practicum, 2025) | Self-Driving Car Engineer Nanodegree (Udacity, 2022) | Product Management (GoPractice & GeekBrains, 2020)
 
 ---
 
 ## Languages
 
-Russian (native) | English (fluent) | Spanish (basic)
+Russian (native) · English (fluent) · Spanish (basic)
