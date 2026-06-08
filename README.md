@@ -8,8 +8,6 @@
 
 **Team Lead @ AeroNAV** — managing a team of 8 building an airport meteorological radar system. 11 repos, 605+ PRs; built the team's LLM-accelerated engineering process end-to-end (AI-driven PR review pipeline, parallel multi-agent refactors, RAG-enhanced review, Gitea/Redmine MCPs).
 
-**Software Developer @ Yandex (May 2023 – May 2026)** — L3/L7 load balancing control plane orchestrating traffic for millions of RPS. 366 PRs merged adding 122K+ lines, 869 PRs reviewed. Built one of Yandex's first infra MCP servers (20+ tools for natural-language AWACS management).
-
 ## Claude Code, by the numbers (2026-01 → 04)
 
 - **265 sessions, 176,848 messages, 54,759 tool calls, 18.33 B tokens, 63 active days**
