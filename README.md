@@ -8,8 +8,6 @@
 
 **Staff Engineer @ Avature** — Madrid, Spain.
 
-**Team Lead @ AeroNAV** — managing a team of 8 building an airport meteorological radar system. 11 repos, 605+ PRs; built the team's LLM-accelerated engineering process end-to-end (AI-driven PR review pipeline, parallel multi-agent refactors, RAG-enhanced review, Gitea/Redmine MCPs).
-
 ## Claude Code, by the numbers (2026-01 → 04)
 
 - **265 sessions, 176,848 messages, 54,759 tool calls, 18.33 B tokens, 63 active days**
@@ -40,9 +38,15 @@
 
 ## Open source
 
+- [**stafeto**](https://github.com/stafeto/stafeto) — a POSIX operating system on its own capability microkernel, written in Rust for AArch64. ~210 KiB kernel with 38 system calls, bounded interrupt-off time enforced in CI, fixed-priority and sporadic-server scheduling, up to 8 CPUs; drivers and services run as isolated user processes. All 1,035 POSIX.1-2024 interfaces present; runs bash, nano, htop, nginx, curl and Dropbear SSH on QEMU, Apple silicon (HVF / Virtualization.framework) and AWS EC2 Graviton. ~4,000 commits, release v0.6.0. [Site](https://stafeto.github.io).
+- [**kunveno**](https://github.com/ssubbotin/kunveno) — self-hosted video meetings for private networks: Go SFU server + Svelte web client, no accounts, no STUN/TURN, no third-party services. Cameras, screen sharing, in-browser virtual backgrounds and noise suppression, ICE-over-TCP fallback, Prometheus metrics; add-ons for speech-recognised meeting notes, MP4 recording and a voice bot that runs the daily stand-up. AGPL-3.0, release v0.10.0.
+- [**windlass**](https://github.com/ssubbotin/windlass) — single-GPU CUDA inference engine for mixture-of-experts models larger than VRAM: dense weights resident on the card, routed experts streamed from NVMe through an LRU cache. Runs GLM-5.2 (753B total / 39B active) on one 96 GB card. Pure C/CUDA, no dependencies.
 - [**flash-moe**](https://github.com/ssubbotin/flash-moe) — multi-vendor GPU port of the Metal-only inference engine that runs Qwen3.5-397B-A17B (397B-param MoE) on consumer hardware. **233 commits across four branches**: CUDA (61), ROCm (46), AMD APU / Strix Halo (73, incl. dp4a + undocumented hipMalloc discoveries), and MI300 optimization (53, aotriton flash-attn + FLA fused recurrent). [Article: Running 397B on a single RTX 4090](https://gist.github.com/ssubbotin/e778f97ebf1f76b8fd423c0bc3961a1a).
 - [**libfprint**](https://gitlab.freedesktop.org/libfprint/libfprint/-/merge_requests/570) — new driver for FPC Disum USB fingerprint sensors (FPC1022). TLS-PSK encrypted USB protocol, SIFT-based matching for small-area sensors.
 - [**LLVM/clang-format**](https://github.com/llvm/llvm-project/pull/181051) — merged PR: per-operator granularity for BreakBinaryOperations
+- [**kaggle-research-skills**](https://github.com/ssubbotin/kaggle-research-skills) — Claude Code skills for disciplined open-ended research, distilled from ML competition campaigns: TRIZ-based researcher, invention council, research loop, LLM council, Kaggle campaign playbook
+- [**dossh**](https://github.com/ssubbotin/dossh) — SSH into a real-mode DOS PC: a TSR SSH server that mirrors the VGA text screen and injects the keyboard over TCP/IP (C, v1.0)
+- [**slim-s3**](https://github.com/ssubbotin/slim-s3) — slim S3 client for C++17: libcurl only, own SigV4 signing, timeouts on by default
 - [**cudascope**](https://github.com/ssubbotin/cudascope) — self-hosted NVIDIA GPU monitoring (Go)
 - [**redis-ui**](https://github.com/ssubbotin/redis-ui) — modern web UI for Redis
 - [**zookeeper-ui**](https://github.com/ssubbotin/zookeeper-ui) — web UI for Apache ZooKeeper with protobuf support
