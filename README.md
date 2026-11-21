@@ -4,10 +4,6 @@
 
 24+ years building software — from safety-critical avionics certified by the FAA to cloud infrastructure handling millions of RPS at Yandex. Focused on **AI-augmented engineering**: shipping at LLM-accelerated pace while keeping output production-grade.
 
-## What I'm doing now
-
-**Staff Engineer @ Avature** — Madrid, Spain.
-
 ## Claude Code, by the numbers (2026-01 → 04)
 
 - **265 sessions, 176,848 messages, 54,759 tool calls, 18.33 B tokens, 63 active days**
