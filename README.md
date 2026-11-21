@@ -4,12 +4,11 @@
 
 24+ years building software — from safety-critical avionics certified by the FAA to cloud infrastructure handling millions of RPS at Yandex. Focused on **AI-augmented engineering**: shipping at LLM-accelerated pace while keeping output production-grade.
 
-## Claude Code, by the numbers (2026-01 → 04)
+## Claude Code, by the numbers (2026-01 → 11)
 
-- **265 sessions, 176,848 messages, 54,759 tool calls, 18.33 B tokens, 63 active days**
-- **209 git commits** shipped across 109 analyzed sessions, ~2,153 hours of session time
-- Primary model: Claude Opus 4.6 (~73% of traffic); also Opus 4.5/4.7, Haiku 4.5, Sonnet 4.6
-- 15+ projects touched: safety-critical radar, Yandex infra, LLM/ML systems, tooling, personal
+- **1,136 sessions, 872K messages, 414K tool calls, 104 B tokens, 244 active days**
+- Mostly Claude Opus (~84% of tokens: Opus 4.5 → 5.5); also Sonnet, Fable and Haiku for subagents
+- Dozens of projects: an OS kernel, video meetings, GPU inference engines, Kaggle campaigns, radar software, tooling
 
 ## Tech stack
 
@@ -31,7 +30,6 @@
 - **Large-scale distributed systems** — L3/L7 load balancing, 7,000+ balancer migrations, 5 datacenters
 - **AI-augmented engineering at scale** — production MCP server (20+ tools), LLM-driven code review pipelines on Gitea, multi-agent orchestration (5 parallel agents for cross-repo refactors, 176-commit monorepo migration in one session), full-stack project bootstrapping from zero to production
 - **Kaggle: 2 silver medals** — [ROGII Wellbore Geology Prediction](https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction) (113th of 6,125 teams) and [RSNA Knee Abnormality Detection](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection) (6,299 teams); solo, with research campaigns run through Claude Code ([skills](https://github.com/ssubbotin/kaggle-research-skills))
-- **Mentored 5+ engineers**, served as Scrum Master for 3 years
 
 ## Open source
 
