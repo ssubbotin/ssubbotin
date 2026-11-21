@@ -1,10 +1,12 @@
 # Hi, I'm Sergey Subbotin
 
-**AI-Augmented Engineering Lead** based in Belgrade, Serbia
+**Staff Engineer @ Avature** based in Madrid, Spain
 
-24+ years building software — from safety-critical avionics certified by the FAA to cloud infrastructure handling millions of RPS at Yandex. Now pivoting full-time into **AI-augmented / "vibe coding" engineering roles**: shipping at LLM-accelerated pace while keeping output production-grade.
+24+ years building software — from safety-critical avionics certified by the FAA to cloud infrastructure handling millions of RPS at Yandex. Focused on **AI-augmented engineering**: shipping at LLM-accelerated pace while keeping output production-grade.
 
 ## What I'm doing now
+
+**Staff Engineer @ Avature** — Madrid, Spain.
 
 **Team Lead @ AeroNAV** — managing a team of 8 building an airport meteorological radar system. 11 repos, 605+ PRs; built the team's LLM-accelerated engineering process end-to-end (AI-driven PR review pipeline, parallel multi-agent refactors, RAG-enhanced review, Gitea/Redmine MCPs).
 
