@@ -34,6 +34,7 @@
 - **30+ avionics projects**, 10+ aircraft certified by FAA (DO-178B/C)
 - **Large-scale distributed systems** — L3/L7 load balancing, 7,000+ balancer migrations, 5 datacenters
 - **AI-augmented engineering at scale** — production MCP server (20+ tools), LLM-driven code review pipelines on Gitea, multi-agent orchestration (5 parallel agents for cross-repo refactors, 176-commit monorepo migration in one session), full-stack project bootstrapping from zero to production
+- **Kaggle: 2 silver medals** — [ROGII Wellbore Geology Prediction](https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction) (113th of 6,125 teams) and [RSNA Knee Abnormality Detection](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection) (6,299 teams); solo, with research campaigns run through Claude Code ([skills](https://github.com/ssubbotin/kaggle-research-skills))
 - **Mentored 5+ engineers**, served as Scrum Master for 3 years
 
 ## Open source
